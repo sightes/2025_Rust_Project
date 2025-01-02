@@ -1,0 +1,11 @@
+[sqlfluff]
+dialect = ansi
+templater = jinja
+exclude_rules = ambiguous.column_count, structure.column_order
+sql_file_exts = .sql,.sql.j2,.dml,.ddl
+
+[sqlfluff:indentation]
+tab_space_size = 2
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper

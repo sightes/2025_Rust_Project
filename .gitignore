@@ -1,0 +1,30 @@
+**/*.xslx
+**/*.xls
+**/*.txt
+**/*.json
+**/*.xml
+**/*.parquet
+.env
+.idea/
+**/.DS_Store
+.DS_Store
+<<<<<<< Updated upstream
+__pycache__/
+out/
+=======
+>>>>>>> Stashed changes
+*.csv
+*.geojson
+2024_05_30_Office_Pricing_Model/rental_offices.kgl.html
+*.zip
+in_progress*/
+!requirements.txt
+.venv/
+venv/
+*.jpg
+*.jpeg
+/2024_08_15_solili_update_pipeline/chrome-data
+/2024_08_15_solili_update_pipeline/chrome-data/Default/Cache/Cache_Data
+/2024_08_15_solili_update_pipeline/chrome-data/Default/Cache/Cache_Data
+/2024_08_15_solili_update_pipeline/chrome-data/Default/Cache
+/2024_08_15_solili_update_pipeline/chrome-data/Default
