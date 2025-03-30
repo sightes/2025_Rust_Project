@@ -1,0 +1,11 @@
+/Users/sightes/Documents/GITHUB/2025_Rust_Project/Pronostico_Clima/target/debug/deps/libbitflags-6e9821a8fb88a7bc.rmeta: /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/lib.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/iter.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/parser.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/traits.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/public.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/internal.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/external.rs
+
+/Users/sightes/Documents/GITHUB/2025_Rust_Project/Pronostico_Clima/target/debug/deps/bitflags-6e9821a8fb88a7bc.d: /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/lib.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/iter.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/parser.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/traits.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/public.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/internal.rs /Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/external.rs
+
+/Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/lib.rs:
+/Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/iter.rs:
+/Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/parser.rs:
+/Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/traits.rs:
+/Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/public.rs:
+/Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/internal.rs:
+/Users/sightes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.6.0/src/external.rs:

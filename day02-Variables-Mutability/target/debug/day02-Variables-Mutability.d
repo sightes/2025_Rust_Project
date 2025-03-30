@@ -1,0 +1,1 @@
+/Users/sightes/Documents/GITHUB/2025_Rust_Project/day02-Variables-Mutability/target/debug/day02-Variables-Mutability: /Users/sightes/Documents/GITHUB/2025_Rust_Project/day02-Variables-Mutability/src/main.rs

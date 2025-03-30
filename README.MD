@@ -1,91 +1,86 @@
-Allowed languages: `Rust`, `sql` & `bash`.
+# 🦀 30 Days of Learning Rust
 
-Let's create a new project:
+Welcome to my **30-Day Rust Challenge**! 🚀  
+Over the next month, I'll be diving into the Rust programming language, sharing daily progress, notes, code snippets, and reflections. Follow along if you're curious about systems programming, memory safety, or just want to learn something new with me! 🙌
 
-```bash
-# Create your project structure
-make analysis=spot_segmentation
+---
 
-# Delete project structure (remember to commit your progress)
-make clean analyis=spot_segmentation
-```
+## 🔥 Why Rust?
 
-**Directory Structure**
+- 💾 Memory safety without garbage collection  
+- ⚡ High performance like C/C++  
+- 🛠️ Great tooling (Cargo, Clippy, etc.)  
+- 🧠 Strong typing and expressive syntax  
+- 👨‍👩‍👧‍👦 Friendly and helpful community  
 
-* snake_case https://en.wikipedia.org/wiki/Snake_case e.g. The project title is Spot Segmentation, the folder should be spot_segmentation
-* date analysis: this kind of analysis are time related, you're not expected to work more on this after the release of the results YYYY_MM_DD_<project_name> e.g. 2024_04_03_exploratory_supply.
+---
 
-> Practical usage: [./demo/explore.ipynb](./demo/explore.ipynb)
+## 📅 Challenge Structure
 
-Rationale about this rules: https://medium.com/@joshuale/a-practical-guide-to-python-project-structure-and-packaging-90c7f7a04f95
+Each day includes:
+- 📚 What I learned  
+- 🧪 A small project or snippet  
+- 📝 Reflections or key takeaways  
 
-Expected folder structure:
-```bash
-/<analysis>
-    /sql
-        <query>.sql
-        ...
-    __iniy__.py
-    main.py
-    explore.ipynb
-    README.md
-```
+---
 
-**How to read SQL files?**
+## 🚧 Progress Tracker
 
-* [https://stackoverflow.com/a/19473206/8567062](https://stackoverflow.com/a/19473206/8567062)
-* https://docs.sqlfluff.com/en/stable/configuration.html#jinja-templater
+| Day | Topic                            | Status        |
+|-----|----------------------------------|---------------|
+| 1   | Hello, World!                    | 🦀 Done!      |
+| 2   | Variables & Mutability           | ⏳ Coming up  |
+| 3   | Data Types & Functions           | ⏳ Coming up  |
+| 4   | Control Flow (if, match)         | ⏳ Coming up  |
+| 5   | Ownership & Borrowing            | ⏳ Coming up  |
+| 6   | References & Slices              | ⏳ Coming up  |
+| 7   | Structs & Enums                  | ⏳ Coming up  |
+| 8   | Pattern Matching                 | ⏳ Coming up  |
+| 9   | Vectors & Strings                | ⏳ Coming up  |
+| 10  | HashMaps                         | ⏳ Coming up  |
+| 11  | Error Handling                   | ⏳ Coming up  |
+| 12  | Modules & Crates                 | ⏳ Coming up  |
+| 13  | Cargo & Packages                 | ⏳ Coming up  |
+| 14  | Lifetimes                        | ⏳ Coming up  |
+| 15  | Traits & Generics                | ⏳ Coming up  |
+| 16  | Closures & Iterators             | ⏳ Coming up  |
+| 17  | Smart Pointers (Box, Rc, RefCell)| ⏳ Coming up  |
+| 18  | Concurrency (Threads, Mutex)     | ⏳ Coming up  |
+| 19  | Asynchronous Rust (async/await)  | ⏳ Coming up  |
+| 20  | Testing & Debugging              | ⏳ Coming up  |
+| 21  | Building a CLI Tool              | ⏳ Coming up  |
+| 22  | Reading from Files               | ⏳ Coming up  |
+| 23  | Writing to Files                 | ⏳ Coming up  |
+| 24  | Mini Project: To-Do CLI App      | ⏳ Coming up  |
+| 25  | Using External Crates            | ⏳ Coming up  |
+| 26  | Rust & WebAssembly               | ⏳ Coming up  |
+| 27  | Rust for Web (Rocket/Actix)      | ⏳ Coming up  |
+| 28  | Macros                           | ⏳ Coming up  |
+| 29  | Rust Internals & Unsafe Code     | ⏳ Coming up  |
+| 30  | Final Project & Wrap-Up 🎉       | ⏳ Coming up  |
 
+---
 
-**How to format SQL:**
+## 📦 Rust Toolchain
 
-https://docs.sqlfluff.com/en/stable/gettingstarted.html
+- [Rust Official Site](https://www.rust-lang.org)
+- [The Rust Book 📖](https://doc.rust-lang.org/book/)
+- [Crates.io (Package Registry)](https://crates.io/)
+- [Rust Playground](https://play.rust-lang.org/)
 
-```bash
-sqlfluff lint ./path/sql/*.sql --dialect mysql
-sqlfluff fix ./path/sql/*.sql --force # Can help to fix the SQL File
-```
+---
 
-2. Query Evaluation: All queries must be evaluable to determine if they will serve as the source of truth.
+## 🧠 Reflections
 
-> * Use https://metabase.spot2.mx
->
-> * Use direct connection to database using python and formatting with jinja2
+Coming soon… 📘✨
 
-3. Metric Idempotence: Metrics must be idempotent over equal time periods; they should yield the same numbers. This requires a consistent query and data source, both serving as the source of truth. Metrics are reproducible.
+---
 
-> https://platform.spot2.mx is the source of truth if you need to understand a query use Telescope, docs  [here](https://spot2mx.atlassian.net/wiki/spaces/SDKB/pages/90177568/Sobre+Debugging).
+## 🦀 Stay Tuned!
 
-4. Data Transformation Documentation: Transformations applied to data must be documented.
+I'll update this README every day with my progress.  
+Feel free to fork this repo and start your own **#30DaysOfRust** journey!
 
-> Using panda or polars? Document your lambdas or pipelines.
+---
 
-5. Primary Keys: The primary keys to use are the table IDs and email addresses to identify individuals.
-
-```sql
-SELECT id FROM users;
-SELECT id FROM spots;
-...
-```
-
-6. Data Privacy: Do not expose sensitive personal data such as DATABASE CREDENTIALS, names, numbers, job positions, addresses, photographs, etc.
-
-> Practical usage of .env [./demo/explore.ipynb](./demo/explore.ipynb)
-
-7. Graphical Explanations: While graphics can speak for themselves, it is beneficial to explain how they were derived.
-
-> Library for graphics:
->
-> * Static: https://seaborn.pydata.org/ TODO: Guidelines for graphs
-> * Dynamic: https://recharts.org/en-US/
-
-8. Metric Evaluation: Metrics should be evaluated from both sides using LEFT JOIN and RIGHT JOIN.
-
-> Find and report gaps in data.
-
-9. Query Optimization: Queries should be optimized once they meet the business need.
-
-
-10.  Data Storage: Information should be stored in readable formats and encoded in UTF-8, such as CSV, XLSX, JSON, PARQUET, and SQL files.
-
-> This repository ignores all this kind of files, those are only final files.
+Made with ❤️ by Sightes
