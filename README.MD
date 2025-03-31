@@ -29,9 +29,9 @@ Each day includes:
 | Day | Topic                            | Status        |
 |-----|----------------------------------|---------------|
 | 1   | Hello, World!                    | 🦀 Done!      |
-| 2   | Variables & Mutability           | ⏳ Coming up  |
-| 3   | Data Types & Functions           | ⏳ Coming up  |
-| 4   | Control Flow (if, match)         | ⏳ Coming up  |
+| 2   | Variables & Mutability           | 🦀 Done!      |
+| 3   | Data Types & Functions           | 🦀 Done!      |
+| 4   | Control Flow (if, match)         | 🦀 Done!      |
 | 5   | Ownership & Borrowing            | ⏳ Coming up  |
 | 6   | References & Slices              | ⏳ Coming up  |
 | 7   | Structs & Enums                  | ⏳ Coming up  |
