@@ -1,0 +1,1 @@
+/Users/sightes/Documents/GITHUB/2025_Rust_Project/day03-Data-Types-Functions/target/debug/day03-Data-Types-Functions: /Users/sightes/Documents/GITHUB/2025_Rust_Project/day03-Data-Types-Functions/src/main.rs
