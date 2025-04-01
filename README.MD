@@ -80,7 +80,3 @@ Coming soon… 📘✨
 
 I'll update this README every day with my progress.  
 Feel free to fork this repo and start your own **#30DaysOfRust** journey!
-
----
-
-Made with ❤️ by Sightes

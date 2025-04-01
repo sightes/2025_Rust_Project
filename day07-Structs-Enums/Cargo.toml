@@ -1,0 +1,5 @@
+[package]
+name = "day07-Structs-Enums"
+version = "0.1.0"
+edition = "2021"
+
