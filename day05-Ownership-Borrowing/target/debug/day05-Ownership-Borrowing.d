@@ -1,0 +1,1 @@
+/Users/sightes/Documents/GITHUB/2025_Rust_Project/day05-Ownership-Borrowing/target/debug/day05-Ownership-Borrowing: /Users/sightes/Documents/GITHUB/2025_Rust_Project/day05-Ownership-Borrowing/src/main.rs

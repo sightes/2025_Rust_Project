@@ -1,0 +1,5 @@
+[package]
+name = "day05-Ownership-Borrowing"
+version = "0.1.0"
+edition = "2021"
+

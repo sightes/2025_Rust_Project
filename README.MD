@@ -32,8 +32,8 @@ Each day includes:
 | 2   | Variables & Mutability           | 🦀 Done!      |
 | 3   | Data Types & Functions           | 🦀 Done!      |
 | 4   | Control Flow (if, match)         | 🦀 Done!      |
-| 5   | Ownership & Borrowing            | ⏳ Coming up  |
-| 6   | References & Slices              | ⏳ Coming up  |
+| 5   | Ownership & Borrowing            | 🦀 Done!      |
+| 6   | References & Slices              | 🦀 Done!      |
 | 7   | Structs & Enums                  | ⏳ Coming up  |
 | 8   | Pattern Matching                 | ⏳ Coming up  |
 | 9   | Vectors & Strings                | ⏳ Coming up  |
