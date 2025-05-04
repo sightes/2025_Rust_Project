@@ -1,0 +1,5 @@
+[package]
+name = "day08_pattern_matching"
+version = "0.1.0"
+edition = "2021"
+

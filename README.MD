@@ -1,5 +1,5 @@
 # 🦀 30 Days of Learning Rust
-
+	
 Welcome to my **30-Day Rust Challenge**! 🚀  
 Over the next month, I'll be diving into the Rust programming language, sharing daily progress, notes, code snippets, and reflections. Follow along if you're curious about systems programming, memory safety, or just want to learn something new with me! 🙌
 
