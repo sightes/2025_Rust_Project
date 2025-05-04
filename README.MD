@@ -24,7 +24,6 @@ Each day includes:
 
 ---
 
-## 🚧 Progress Tracker
 
 | Day | Topic                            | Status        |
 |-----|----------------------------------|---------------|
