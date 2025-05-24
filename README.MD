@@ -35,8 +35,8 @@ Each day includes:
 | 6   | References & Slices              | 🦀 Done!      |
 | 7   | Structs & Enums                  | ⏳ Coming up  |
 | 8   | Pattern Matching                 | ⏳ Coming up  |
-| 9   | Vectors & Strings                | ⏳ Coming up  |
-| 10  | HashMaps                         | ⏳ Coming up  |
+| 9   | Vectors & Stringcd s                | ⏳ Coming up  |
+| 10  | HashMaps                         | ⏳ Coming up |
 | 11  | Error Handling                   | ⏳ Coming up  |
 | 12  | Modules & Crates                 | ⏳ Coming up  |
 | 13  | Cargo & Packages                 | ⏳ Coming up  |
