@@ -1,5 +1,5 @@
 # 🦀 30 Days of Learning Rust
-
+	
 Welcome to my **30-Day Rust Challenge**! 🚀  
 Over the next month, I'll be diving into the Rust programming language, sharing daily progress, notes, code snippets, and reflections. Follow along if you're curious about systems programming, memory safety, or just want to learn something new with me! 🙌
 
@@ -24,7 +24,6 @@ Each day includes:
 
 ---
 
-## 🚧 Progress Tracker
 
 | Day | Topic                            | Status        |
 |-----|----------------------------------|---------------|
@@ -36,8 +35,8 @@ Each day includes:
 | 6   | References & Slices              | 🦀 Done!      |
 | 7   | Structs & Enums                  | ⏳ Coming up  |
 | 8   | Pattern Matching                 | ⏳ Coming up  |
-| 9   | Vectors & Strings                | ⏳ Coming up  |
-| 10  | HashMaps                         | ⏳ Coming up  |
+| 9   | Vectors & Stringcd s                | ⏳ Coming up  |
+| 10  | HashMaps                         | ⏳ Coming up |
 | 11  | Error Handling                   | ⏳ Coming up  |
 | 12  | Modules & Crates                 | ⏳ Coming up  |
 | 13  | Cargo & Packages                 | ⏳ Coming up  |

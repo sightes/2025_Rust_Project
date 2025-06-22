@@ -1,0 +1,5 @@
+[package]
+name = "day09_vector_and_string"
+version = "0.1.0"
+edition = "2021"
+
